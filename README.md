@@ -1,4 +1,4 @@
-We Work Detok Not Only Tok Detok
+### Cara menginstall scrip!
 ```
 echo -e "net.ipv6.conf.all.disable_ipv6 = 1\nnet.ipv6.conf.default.disable_ipv6 = 1\nnet.ipv6.conf.lo.disable_ipv6 = 1" >> /etc/sysctl.conf && sysctl -p
 ```
@@ -8,11 +8,11 @@ apt update -y && apt upgrade -y --fix-missing && apt install -y xxd bzip2 wget c
 ```
 
 ```
-screen -S setup-session bash -c "wget -q https://raw.githubusercontent.com/vermiliion/x-only/main/install.sh && chmod +x install.sh && ./install.sh; read -p 'Tekan enter untuk keluar...'"
+screen -S setup-session bash -c "wget -q https://raw.githubusercontent.com/nameless-newbie/fourth-sc/main/install.sh && chmod +x install.sh && ./install.sh; read -p 'Tekan enter untuk keluar...'"
 ```
 Perintah Update Script
 ```
-wget -q https://raw.githubusercontent.com/vermiliion/x-only/main/update.sh && chmod +x update.sh && ./update.sh && rm -f update.sh
+wget -q https://raw.githubusercontent.com/nameless-newbie/fourth-sc/main/update.sh && chmod +x update.sh && ./update.sh && rm -f update.sh
 ```
 
 ```
@@ -20,7 +20,7 @@ screen -r -d setup
 ```
 **UDP CUSTOM**
 ```
-wget -q https://raw.githubusercontent.com/vermiliion/x-only/main/udepe.sh && chmod +x udepe.sh && ./udepe.sh && rm -f udepe.sh
+wget -q https://raw.githubusercontent.com/nameless-newbie/fourth-sc/main/udepe.sh && chmod +x udepe.sh && ./udepe.sh && rm -f udepe.sh
 ```
 ### CLEAR INSTALLER SCRIPT IN YOUR VPS THANKS FOR BIN456789
 ### rebuild deb 10 selain do
