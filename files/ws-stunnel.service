@@ -1,6 +1,6 @@
 [Unit]
 Description=WebSocket LITE (ws)
-Documentation=https://github.com/vermiliion
+Documentation=https://github.com/nameless-newbie
 Wants=network-online.target
 After=network-online.target nss-lookup.target
 
