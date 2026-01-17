@@ -21,7 +21,7 @@ function send-ip() {
     URL="https://api.telegram.org/bot$KEY/sendMessage"
     TEXT="
 <code>────────────────────</code>
-<b>⚠️ INGFO-INGFO MASEEE ⚠️</b>
+<b>⚠️ PEMBERITAHUAN LE ⚠️</b>
 <code>────────────────────</code>
 <b>» ISP:</b> <code>${ISP}</code>
 <b>» Domain:</b> <code>${domainku}</code>
@@ -45,7 +45,7 @@ function send-unban-notif() {
     URL="https://api.telegram.org/bot$KEY/sendMessage"
     TEXT="
 <code>────────────────────</code>
-<b>✅ INGFO-INGFO MASEEE ✅</b>
+<b>✅ PEMBERITAHUAN LE ✅</b>
 <code>────────────────────</code>
 <b>» ISP:</b> <code>${ISP}</code>
 <b>» Domain:</b> <code>${domainku}</code>

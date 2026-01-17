@@ -23,7 +23,7 @@ function send-log-quota() {
     URL="https://api.telegram.org/bot$KEY/sendMessage"
     TEXT="
 <code>────────────────────</code>
-<b>☢️ INGFO QUOTA HABIS MASEEE ☢️</b>
+<b>☢️ PEMBERITAHUAN QUOTA HABIS LE ☢️</b>
 <code>────────────────────</code>
 <b>ISP:</b> <code>${ISP}</code>
 <b>Domain:</b> <code>${domainku}</code>
