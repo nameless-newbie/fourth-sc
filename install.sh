@@ -877,9 +877,11 @@ print_success "Semua Services"
 function memasang_menu(){
     clear
     print_install "Memasang Menu"
+    apt install unzip -y >/dev/null 2>&1
     wget -q ${REPO}speedtest.sh && chmod +x speedtest.sh
     wget -q ${REPO}menu/menu.zip
-    unzip -P unlock menu.zip 
+    mkdir -p menu
+    unzip -P unlock menu.zip -d menu >/dev/null 2>&1
     chmod +x menu/*
     mv menu/* /usr/local/sbin
     sleep 2
